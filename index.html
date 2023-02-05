@@ -1,232 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Jeffrey Chow Portfolio</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Jeffrey Chow</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Work Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css"/>
+    <title>Jeffrey Chow Portfolio</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="relative container mx-auto p-6">
+        <!-- Flex container -->
+        <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <div class="pt-2">
+                <img src="img/logo.svg" alt="" class="object-contain">
             </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Jeffrey
-                        <span class="text-primary">Chow</span>
-                    </h1>
-                    <div class="subheading mb-5">
-                        <!-- <a href="mailto:jeffreychow97@gmail.com">jeffreychow97@gmail.com</a> -->
-                    </div>
-                    <p class="lead mb-5">I am a 3rd year Bachelor of Computer Science student at the University of British Columbia who is interested in full-stack development. I enjoy creating applications to automate various aspects of everyday life. I am currently working an Auto-Scheduler program.</p>
 
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/jeffreychow97/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/jchow97"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="mailto:jeffreychow97@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-                        <!-- <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a> -->
-                    </div>
-                    <br>
-                    <p class="lead mb-5">
-                        Programming Languages: Java, Python, HTML, CSS, JavaScript, C
-                        <br>Databases: SQLite, MySQL, SPARQL, Wikibase
-                        <br>Software: IntelliJ, VSCode, MATLAB, Git Bash, Terminal, Office 365
+            <!-- Menu Items -->
+            <div class="hidden md:flex space-x-12">
+                <a href="#" class="hover:text-darkGrayishBlue">Home</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Projects</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Resume</a>
+                <a href="#" class="hover:text-darkGrayishBlue">Contact</a>
+            </div>
 
-
-                    </p>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Projects -->
-            <!-- Experience-->
-            <section class="resume-section" id="projects">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Projects</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Auto-Scheduler</h3>
-                            <div class="subheading mb-3">Personal Project - Java, OOP, TTD, Design Patterns</div>
-                            <p>•	Automatically schedules and maintains a calendar using user-inputted to-do list as priority queue and considers personal preferences and fixed events.
-                                <br>•	Uses OOP design principles to apply composite design pattern for clean association between task, list, and calendar classes.
-                                </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">April 2022 - September 2021</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Festify</h3>
-                            <div class="subheading mb-3">Extracurricular Hackathon Project - React.js, Node.js, Express.js, RESTful APIs, HTML, CSS</div>
-                            <p>•	A web application that modifies personal Spotify accounts and converts festival lineups into an aggregate playlist of performing artists’ top tracks.
-                                <br>•	Used optical character recognition and regex to extract text from festival lineup images.
-                                <br>•	Utilized HTTP methods to interact with RESTful Spotify API to modify user’s Spotify account.
-                                </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2022</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Super Smash Bros. Melee Competitive Tool</h3>
-                            <div class="subheading mb-3">Academic Project - Java, OOP, TTD, JavaSwing</div>
-                            <p>•	Desktop application for tournament organizers to track professional player database and displays player statistics in a basic UI using JavaSwing.
-                                <br>•	Used JSON for data persistence to store and retrieve player database.
-                                <br>•	Employed TDD approach by writing extensive Junit Tests to ensure complete code coverage.
-                                </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">February 2022 - April 2022</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Future Finder</h3>
-                            <div class="subheading mb-3">Extracurricular Hackathon Project - Java, Spring Boot, HTML, CSS, JavaScript, MySQL</div>
-                            <p>•	Uses Java Spring Boot to deploy a web application prototyping a career questionnaire and generating a user-unique dashboard.
-                                <br>•	Uses MySQL relational database to store user questionnaire inputs.
-                                </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">February 2022</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">NBA Basketball Player Database</h3>
-                            <div class="subheading mb-3">Personal Project - Python, SQLite, APIs</div>
-                            <p>•	Command-line application allowing users to extract and modify NBA player individual statistics.
-                                <br>•	Communicated with NBA API to retrieve official player statistics and stored data in SQL database.
-                                <br>•	Converted user inputs into SQL update and select statements to modify and search through player database respectively.
-                                </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2021 - Present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Side-Scrolling Shooter Game</h3>
-                            <div class="subheading mb-3">Personal Project - Python, Pygame, OOD</div>
-                            <p>•	Uses Python and Pygame module to implement a basic side-scrolling shooter game with 
-                                <br>•	Implements basic side-scrolling game elements including character movement, random object generation, game loops, collision, hit-boxes, scrolling background, and scoring.
-                                </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2021 - November 2021</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Work Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Contact Tracing Aide</h3>
-                            <div class="subheading mb-3">Fraser Health (Surrey, B.C.)</div>
-                            <p>•	Provided support and guidance as a team leader to other Contact Tracing Aides for handling high priority situations during the call and documentation processes.
-                                <br>•	Reviewed and assessed the documentation and processes of other team members to ensure accuracy.
-                                <br>•	Contacted individuals infected with COVID-19 to collect information regarding close contacts, symptomatic onset, and support individual needs.
-                                </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2020 - September 2021</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Post-Production Producer</h3>
-                            <div class="subheading mb-3">Remote Position</div>
-                            <p>•	Produced and edited daily video game content for YouTube channel “Controltheboard”, starting from Twitch livestream content from the talent.
-                                <br>•	Created thumbnails, titles, and descriptions for daily videos with the intention of driving viewership and traffic to the channel.
-                                <br>•	Used YouTube Analytics tools to evaluate content performance for feedback and adjustments to the post-production side of the content.
-                                </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">October 2020 - February 2021</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Research Technician</h3>
-                            <div class="subheading mb-3">Teves Lab - University of British Columbia (Vancouver, B.C.)</div>
-                            <p>•	Coordinated the start of a new research laboratory by establishing the infrastructure and overseeing maintenance.
-                                <br>•	Conducted a self-directed research project involving CRISPR gene editing in mouse embryonic stem cells to investigate the role of General Transcription Factors. 
-                                <br>•	Trained new laboratory personnel in safety protocols and molecular biology techniques.
-                                <br>•	Performed extensive literature reviews to troubleshoot experimental procedures and lead journal clubs and project presentations.
-                                </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2018 - August 2019</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Warehouse Operator</h3>
-                            <div class="subheading mb-3">B.C. Clinical and Support Services (Langley, B.C.)</div>
-                            <p>•	Verified, selected, and organized medical and operational supply orders to fulfill the needs of public hospitals throughout British Columbia.
-                                <br>•	Assessed inventory concerns regarding item errors, spills, and insufficient supply.
-                                <br>•	Managed the state of the warehouse to upkeep optimal working conditions.
-                                </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2017 - July 2018</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University of British Columbia</h3>
-                            <div class="subheading mb-3">Bachelor of Computer Science</div>
-                            <div>--Integrated Computer Science--</div>
-                            <p>cGPA: 85.3%</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2021 - Present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University of British Columbia</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Major in Biochemistry & Molecular Biology</div>
-                            <p>GPA: 81.3%</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2015 - May 2020</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Outside of school, I enjoy indoor bouldering with my friends, which has become my primary destressor in 2022. At home, I enjoy playing various multiplayer online video games that span nearly every video game genre, including MMOs, FPSs, RPGs, and more. 
-                        I actively follow the NBA and participate in fantasy leagues. Outside of my hobbies, I have interests in content creation, analytics and electronic music. Lastly, I am always looking for ways to promote mental health and self-improvement.
-                    </p>
-                </div>
-            </section>
-            <hr class="m-0" />
+            <!-- Button -->
+            <a href="" class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover: bg-brightRedLight">
+                Useless Button
+            </a>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+    </nav>
+
+    <!-- Hero Section ??? -->
+    <section id="hero">
+        <!-- Flex Container -->
+        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+            <!-- Left Item -->
+            <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+                <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
+                    Jeffrey Chow
+                </h1>
+                <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+                    Full Stack Developer driven by the desire to build cool stuff with a commitment to continuous learning and growth.<br>
+
+                    <br>4th year Computer Science Student at the University of British Columbia. <br>
+                    <br>Passion for new technologies. Currently intrigued by AI/ML. <br>
+                    <br>Currently, I am building an NBA match predictor using Machine Learning.
+                </p>
+            </div>
+            <!-- Image -->
+            <div>
+
+            </div>
+        </div>
+    </section>
+</body>
 </html>
