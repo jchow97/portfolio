@@ -1,4 +1,3 @@
-import image from "/public/images/bookstore_pic.jpg"
 
 function Introduction() {
     return (
@@ -18,7 +17,7 @@ function Introduction() {
                     </p>
                 </div>
                 <div className="md:w-1/2">
-                    <img src={image} alt="" className="" />
+                    <img src={"./images/bookstore_pic.jpg"} alt="" className="" />
                 </div>
             </div>
         </section>
