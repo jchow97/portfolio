@@ -17,7 +17,7 @@ function Introduction() {
                     </p>
                 </div>
                 <div className="md:w-1/2">
-                    <img src="src/assets/bookstore_pic.jpg" alt="" className="" />
+                    <img src="/bookstore_pic.jpg" alt="" className="" />
                 </div>
             </div>
         </section>

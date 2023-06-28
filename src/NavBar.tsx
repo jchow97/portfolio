@@ -5,7 +5,7 @@ function NavBar() {
         <nav className="relative container mx-auto p-6">
             <div className="flex items-center justify-between">
                 <div className="pt-2">
-                    <img src="src/assets/logo.svg" alt="" className="object-contain" />
+                    <img src="/logo.svg" alt="" className="object-contain" />
                 </div>
                 <h3 className="text-4xl font-bold justify-left md:mb-4">
                     Jeffrey Chow
