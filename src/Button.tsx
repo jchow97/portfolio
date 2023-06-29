@@ -1,10 +1,11 @@
 interface Props {
     name: string;
+    link: string;
 }
 
 function Button(props: Props) {
     return (
-        <a href="#" className="hover:text-darkGrayishBlue">{props.name}</a>
+        <a href={props.link} className="hover:text-darkGrayishBlue">{props.name}</a>
     )
 }
 

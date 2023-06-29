@@ -1,21 +1,26 @@
 import Button from "./Button";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import {faEnvelope} from "@fortawesome/free-regular-svg-icons";
+import {faFilePdf} from "@fortawesome/free-regular-svg-icons";
+import Icon from "./Icon";
+
 
 function NavBar() {
     return (
-        <nav className="relative container mx-auto p-6">
-            <div className="flex items-center justify-between">
-                <div className="pt-2">
-                    <img src={"./images/logo.svg"} alt="" className="object-contain" />
+        <nav className="container mx-auto p-6">
+            <div className="flex grid grid-cols-3 justify-items-between">
+                <div className={"self-center justify-self-end space-x-6"}>
+                    <Icon icon={faLinkedin} link={"https://www.linkedin.com/in/jeffreychow97/"} />
+                    <Icon icon={faGithub} link={"https://github.com/jchow97"} />
+                    <Icon icon={faEnvelope} link={"mailto:jeffreychow97@gmail.com"} />
+                    <Icon icon={faFilePdf} link={"./JeffreyChowResume_v3.pdf"} />
                 </div>
-                <h3 className="text-4xl font-bold justify-left md:mb-4">
+                <h1 className="text-5xl font-bold justify-self-center md:mb-4">
                     Jeffrey Chow
-                </h3>
+                </h1>
+                <div>
 
-                <div className="hidden space-x-12 md:flex">
-                    <Button name="Home"/>
-                    <Button name="Projects"/>
-                    <Button name="Resume"/>
-                    <Button name="Contact"/>
                 </div>
             </div>
         </nav>
