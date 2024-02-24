@@ -1,5 +1,5 @@
 import NavBar from './components/NavBar';
-import Introduction from './Introduction';
+import Introduction from './sections/Introduction';
 import UnderConstruction from "./UnderConstruction";
 
 function App() {
