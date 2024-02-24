@@ -1,4 +1,4 @@
-import NavBar from './NavBar';
+import NavBar from './components/NavBar';
 import Introduction from './Introduction';
 import UnderConstruction from "./UnderConstruction";
 
