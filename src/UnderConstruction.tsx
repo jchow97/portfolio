@@ -1,7 +1,7 @@
 function UnderConstruction() {
     return (
         <section id="under-construction">
-            <div className="container flex mx-auto">
+            <div className="container flex mx-auto justify-center">
                 <h1 className="">
                     This site is under construction. Stay tuned for continual updates on the new portfolio.
                 </h1>
