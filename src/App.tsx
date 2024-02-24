@@ -1,6 +1,7 @@
 import NavBar from './components/NavBar';
 import Introduction from './sections/Introduction';
 import UnderConstruction from "./UnderConstruction";
+import ProjectShowcase from "./sections/ProjectShowcase";
 
 function App() {
     return (
@@ -8,6 +9,7 @@ function App() {
             <NavBar />
             <UnderConstruction />
             <Introduction />
+            <ProjectShowcase/>
         </div>
     )
 }

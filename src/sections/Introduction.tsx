@@ -8,12 +8,14 @@ function Introduction() {
                         Driven by the opportunity to build cool stuff.
                     </h1>
                     <p className="max-w-sm text-center text-darkGrayishBlue md:text-left">
-                        I am a Software Engineer with a commitment to learning and growth. I am a
+                        I am a Software Developer with a commitment to learning and growth. I am a
                         4th year Computer Science Student at the University of British Columbia.
-                        I love to learn new technologies, and I am currently interested in AI/ML.
+                        Most recently, I was a Software Developer Co-op at Peloton Technologies.
+                        I love to learn new technologies, and I am currently interested in biotech
+                        software and game development.
                         <br/>
                         <br/>
-                        Currently, I am working on an NBA match predictor using Machine Learning.
+                        Currently, I am working on making a Strategy Game called Project A.
                     </p>
                 </div>
                 <div className="md:w-1/2">
