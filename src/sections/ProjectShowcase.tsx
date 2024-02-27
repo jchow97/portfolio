@@ -31,6 +31,18 @@ function ProjectShowcase() {
                 API in a way that makes the experience seamless for the user.
                 `
             }/>
+            <ProjectShowcaseImageLeft
+                imageUrl={"./images/portfolio_preview.png"}
+                title={"My Personal Portfolio Website"}
+                description={
+                    `This is the second version of this website, which I decided to rebuild using React to explore this
+                    library. When I was first introduced to React through a school project, I was fascinated by the
+                    reusability of components in React projects. Additionally, this project emphasizes TailwindCSS, 
+                    which I used during my time at Peloton Technologies. Designing this website allowed me to learn more
+                    about the TailwindCSS classes and designing my own UI/UX.
+                    
+                    I will be continually adding to this website over time.`
+                }/>
         </div>
     )
 }
