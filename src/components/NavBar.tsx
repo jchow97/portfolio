@@ -12,14 +12,11 @@ function NavBar() {
                     <Icon icon={faLinkedin} link={"https://www.linkedin.com/in/jeffreychow97/"} />
                     <Icon icon={faGithub} link={"https://github.com/jchow97"} />
                     <Icon icon={faEnvelope} link={"mailto:jeffreychow97@gmail.com"} />
-                    <Icon icon={faFilePdf} link={"./JeffreyChowResume_v3.pdf"} />
+                    <Icon icon={faFilePdf} link={"./JeffreyChowResume_v6.pdf"} />
                 </div>
                 <h1 className="text-5xl font-bold justify-self-center md:mb-4">
                     Jeffrey Chow
                 </h1>
-                <div>
-
-                </div>
             </div>
         </nav>
     )
