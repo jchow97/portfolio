@@ -1,7 +1,8 @@
 interface Project {
     imageUrl: string;
     title: string;
-    description: string;
+    description: string[];
+    repoUrl: string;
 }
 
 function ProjectShowcaseImageLeft(project: Project) {
@@ -12,7 +13,24 @@ function ProjectShowcaseImageLeft(project: Project) {
                 </div>
                 <div className="p-4 md:w-3/4 w-full">
                     <h2 className="text-2xl font-bold mb-2">{project.title}</h2>
-                    <p className="text-gray-700 text-base">{project.description}</p>
+                    <p className="text-gray-700 text-base">{
+                        <div>
+                            {project.description.map((desc) => (
+                                <div>
+                                    <text>{desc}</text>
+                                    <br/>
+                                    <br/>
+                                </div>
+                            ))}
+                            <text>You can check out the project repo </text>
+                            <a href={project.repoUrl} className={"underline"}>
+                                here
+                            </a>
+                            <text>.</text>
+                        </div>
+                    }
+                        <br/>
+                    </p>
                 </div>
         </div>
     )
