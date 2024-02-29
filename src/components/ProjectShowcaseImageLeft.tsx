@@ -13,7 +13,7 @@ function ProjectShowcaseImageLeft(project: Project) {
                 </div>
                 <div className="p-4 md:w-3/4 w-full">
                     <h2 className="text-2xl font-bold mb-2">{project.title}</h2>
-                    <p className="text-gray-700 text-base">{
+                    <p className="text-darkGrayishBlue text-base">{
                         <div>
                             {project.description.map((desc) => (
                                 <div>
