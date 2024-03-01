@@ -32,7 +32,7 @@ function ProjectShowcaseImageRight(project: Project) {
 
             </div>
             <div className="md:w-1/4 w-full py-6 pr-4">
-                <img src={project.imageUrl} alt={project.title} className="w-full h-full object-scale-down"/>
+                <img src={project.imageUrl} alt={project.title} className="w-full h-full object-scale-down rounded"/>
             </div>
         </div>
     )

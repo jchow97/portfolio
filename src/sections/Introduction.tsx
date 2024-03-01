@@ -19,7 +19,7 @@ function Introduction() {
                         </p>
                     </div>
                     <div className="md:w-1/2 py-12 px-10">
-                        <img src={"./images/bookstore_pic.jpg"} alt="" className="object-scale-down"/>
+                        <img src={"./images/bookstore_pic.jpg"} alt="" className="object-scale-down rounded"/>
                     </div>
                 </div>
         </section>
