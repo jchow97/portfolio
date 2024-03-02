@@ -3,8 +3,8 @@ function Introduction() {
     return (
         <section id="hero">
             <div className="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 border-2 border-gray-200 rounded-lg overflow-hidden shadow-lg m-4">
-                    <div className="flex flex-col mb-32 space-y-12 md:w-1/2 px-16">
-                        <h2 className="max-w-md text-3xl font-bold text-center md:text-4xl md:text-left">
+                    <div className="flex flex-col content-center mb-10 md:w-1/2 px-16">
+                        <h2 className="py-6 max-w-md text-3xl font-bold text-center md:text-4xl md:text-left">
                             Driven by the opportunity to build cool stuff.
                         </h2>
                         <p className="max-w-sm text-center text-darkGrayishBlue md:text-left">
