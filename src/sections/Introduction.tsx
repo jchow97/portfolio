@@ -10,8 +10,9 @@ function Introduction() {
                         <p className="max-w-sm text-center text-darkGrayishBlue md:text-left">
                             I am a Software Developer with a commitment to learning and growth. I am a
                             4th year Computer Science Student at the University of British Columbia.
-                            Most recently, I was a Software Developer Co-op at Peloton Technologies.
-                            I love to learn new technologies, and I am currently interested in biotech
+                            Currently, I am working as a Web Developer Co-op at Invoke Media with an expected
+                            graduation date of May 2025.
+                            I love to learn new technologies and I am currently interested in biotech
                             software and game development.
                             <br/>
                             <br/>

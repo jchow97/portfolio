@@ -17,7 +17,7 @@ function NavBar() {
                 </h1>
                 <div className={"self-center justify-self-start space-x-6"}>
                     <Icon icon={faEnvelope} link={"mailto:jeffreychow97@gmail.com"}/>
-                    <Icon icon={faFilePdf} link={"./JeffreyChowResume_v6.pdf"}/>
+                    <Icon icon={faFilePdf} link={"./JeffreyChowResume_v7.pdf"}/>
                 </div>
             </div>
         </nav>
