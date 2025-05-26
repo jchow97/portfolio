@@ -7,7 +7,7 @@ export default function Home() {
       className="relative flex size-full min-h-screen flex-col bg-[#111418] dark group/design-root overflow-x-hidden"
       style={{ fontFamily: '"Space Grotesk", "Noto Sans", sans-serif' }}
     >
-      <div className="layout-container flex h-full grow flex-col">
+      <div className="layout-container flex h-full grow flex-col pb-16">
         <MainContent />
         <Menu />
       </div>
