@@ -1,5 +1,6 @@
 import Image from "next/image";
 import MainContent from "@/components/MainContent";
+import { Menu } from "@/components/Menu";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
     >
       <div className="layout-container flex h-full grow flex-col">
         <MainContent />
+        <Menu />
       </div>
     </div>
   );
