@@ -1,7 +1,7 @@
 import { BoxReveal } from "@/components/magicui/box-reveal";
 
 function ProfileSection() {
-  const boxRevealColour = "#EDFFD9";
+  const boxRevealColour = ""; // Intentionally empty to keep fade-in effect
   const boxRevealDuration = 1.0;
   const boxRevealWidth = "fit-content";
 
