@@ -1,7 +1,7 @@
 import { BoxReveal } from "@/components/magicui/box-reveal";
 
 function ProfileSection() {
-  const boxRevealColour = "#5046e6";
+  const boxRevealColour = "#EDFFD9";
   const boxRevealDuration = 1.0;
   const boxRevealWidth = "fit-content";
 
@@ -9,18 +9,18 @@ function ProfileSection() {
     <div className="flex p-4 @container">
       <div className="flex w-full flex-col gap-4 items-center">
         <div className="flex gap-4 flex-col items-center">
-          {/* <BoxReveal
+          <BoxReveal
             boxColor={boxRevealColour}
             duration={boxRevealDuration}
             width={boxRevealWidth}
-          > */}
-          <div
-            className="bg-center bg-no-repeat aspect-square bg-cover rounded-full min-h-32 w-32"
-            style={{
-              backgroundImage: 'url("images/bookstore_pic.jpeg")',
-            }}
-          ></div>
-          {/* </BoxReveal> */}
+          >
+            <div
+              className="bg-center bg-no-repeat aspect-square bg-cover rounded-full min-h-32 w-32"
+              style={{
+                backgroundImage: 'url("images/bookstore_pic.jpeg")',
+              }}
+            ></div>
+          </BoxReveal>
           <div className="flex flex-col items-center justify-center justify-center">
             <BoxReveal
               boxColor={boxRevealColour}
