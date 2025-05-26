@@ -1,9 +1,13 @@
+"use client";
+
 import React from "react";
 
 interface ProjectItemProp {
   imageUrl: string;
   title: string;
   description: string;
+  projectUrl: string;
+  disabled: boolean;
 }
 
 function ProjectItem(prop: ProjectItemProp) {
@@ -25,8 +29,30 @@ function ProjectItem(prop: ProjectItemProp) {
               </p>
             </div>
           </div>
-          <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#0c7ff2] text-white text-sm font-medium leading-normal">
-            <span className="truncate">View Project</span>
+          <button
+            className={`flex min-w-[84px] max-w-[480px] items-center justify-center overflow-hidden rounded-lg h-8 px-4 text-white text-sm font-medium leading-normal ${
+              prop.disabled
+                ? "bg-gray-400 cursor-not-allowed"
+                : "bg-[#0c7ff2] hover:bg-[#095ea0] cursor-pointer"
+            }`}
+            disabled={prop.disabled}
+          >
+            {prop.disabled ? (
+              <span className="truncate">Code not available yet!</span>
+            ) : (
+              <a
+                href={prop.projectUrl}
+                className="truncate "
+                onClick={(event) => {
+                  if (prop.disabled) {
+                    event.preventDefault();
+                  }
+                }}
+                style={{ pointerEvents: prop.disabled ? "none" : "auto" }}
+              >
+                View Project
+              </a>
+            )}
           </button>
         </div>
       </div>

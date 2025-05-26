@@ -8,6 +8,8 @@ const projectsData = [
     title: "A Good F*cking Job Board",
     description:
       "A job board that allows users to track jobs from their favourite companies. ",
+    projectUrl: "",
+    disabled: true,
   },
   {
     imageUrl: "/images/nba_predictor.png",
@@ -17,12 +19,16 @@ const projectsData = [
                   and 57% accuracy on spread predictions. One of the most fun projects I worked on
                   after my first internship to apply what I learned about data modeling 
                   and ORMs.`,
+    projectUrl: "https://github.com/jchow97",
+    disabled: false,
   },
   {
     imageUrl: "/images/yt_captions_translator.png",
     title: "YouTube Captions Translator",
     description:
       "A Google Chrome extension that auto-translates video captions in real-time to your preferred language.",
+    projectUrl: "https://github.com/jchow97/yt-captions-translator",
+    disabled: false,
   },
 ];
 
@@ -38,6 +44,8 @@ function ProjectsSection() {
           imageUrl={project.imageUrl}
           title={project.title}
           description={project.description}
+          projectUrl={project.projectUrl}
+          disabled={project.disabled}
         />
       ))}
     </>
