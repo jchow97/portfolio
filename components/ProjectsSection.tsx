@@ -4,8 +4,7 @@ import ProjectItem from "./ProjectItem";
 
 const projectsData = [
   {
-    imageUrl:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAVfke1M5tMxNseVMK4yxGTOCFNTJKcvocHDkxI7V0_3ZXT91ZVb1q70mDk4h1kx87SrrbYBn9qW-zzJUg4awHHYUC5LneDAHKxtSLdl-H-t-DmRVPtcE3XAdl13hgJu9_F4AJ-iW93QGbQ0yehdQC6-fkguR3OBd0Pcab2cTgpc8RxmREIPd1CCnEKkk2zF5xjvYuVlGlUxII3LRTYypEmWmMyK4o6bPO5pS3LKvYOgXTH0ESKgw9MVIyqyj5TPItBpxdwthwB7qHx",
+    imageUrl: "/images/job_board.png",
     title: "A Good F*cking Job Board",
     description:
       "A job board that allows users to track jobs from their favourite companies. ",
